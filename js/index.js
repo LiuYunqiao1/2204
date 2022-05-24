@@ -1,5 +1,6 @@
 class a {
     constructor() {
+        console.log(111);
         this.$('.bc').addEventListener('click', this.setData)
         this.getData();
         //删除
